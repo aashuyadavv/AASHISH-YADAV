@@ -4,6 +4,7 @@ const navLinks = document.querySelector('.nav-links');
 const form = document.querySelector('#contact-form');
 const formStatus = document.querySelector('.form-status');
 
+
 const setMenu = (open) => {
 	menuToggle.setAttribute('aria-expanded', String(open));
 	menuToggle.setAttribute('aria-label', open ? 'Close navigation' : 'Open navigation');
